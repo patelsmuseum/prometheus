@@ -46,7 +46,7 @@ scrape_configs:
     static_configs:
       - targets: ["localhost:9090"]
 
-  - job_name: "go-email-v6-countfiles"
+  - job_name: "countfiles"
     static_configs:
       - targets:
           - "localhost:9100"                           
